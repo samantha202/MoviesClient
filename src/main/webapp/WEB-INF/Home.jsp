@@ -9,7 +9,6 @@
 <%@ include file="/include/css.jsp" %>
 </head>
 <body>
-
     <div class="preloader">
         <div class="lds-ripple">
             <div class="lds-pos"></div>

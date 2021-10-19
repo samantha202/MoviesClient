@@ -21,6 +21,10 @@
 		<servlet-name>AddServlet</servlet-name>
 		<servlet-class>servlet.pack.AddServlet</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>MoreServlet</servlet-name>
+		<servlet-class>servlet.pack.MoreServlet</servlet-class>
+	</servlet>
 	<servlet-mapping>
 		<servlet-name>UserServlet</servlet-name>
 		<url-pattern>/login</url-pattern>
@@ -32,5 +36,9 @@
 	<servlet-mapping>
 		<servlet-name>MovieServlet</servlet-name>
 		<url-pattern>/movies</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MoreServlet</servlet-name>
+		<url-pattern>/more</url-pattern>
 	</servlet-mapping>
 </web-app>
