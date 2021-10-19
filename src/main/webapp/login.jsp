@@ -80,7 +80,7 @@
 	                </div>
 	                <div id="recoverform">
 	                    <div class="logo">
-	                        <span class="db"><img src="<%= request.getContextPath() %>/template/images/logo-icon.png" alt="logo" /></span>
+	                        <span class="db"><img src="<%= request.getContextPath() %>/assets/images/logo-icon.png" alt="logo" /></span>
 	                        <h5 class="font-medium m-b-20">Recover Password</h5>
 	                        <span>Enter your Email and instructions will be sent to you!</span>
 	                    </div>

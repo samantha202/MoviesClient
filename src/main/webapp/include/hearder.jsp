@@ -63,7 +63,7 @@
                     <ul class="navbar-nav float-right">
                         <li class="nav-item search-box">
                         <form action="Login.jsp">
-                          <button class="dt-button buttons-csv buttons-html5 btn btn-info mr-1" type="submit" tabindex="0" aria-controls="file_export"><span>Connexion</span></button> 
+                          <button class="dt-button buttons-csv buttons-html5 btn btn-info mr-1" type="submit" tabindex="0" aria-controls="file_export"><span>Deconnexion</span></button> 
                           </form>
                           </li>
                         <li class="nav-item search-box">
