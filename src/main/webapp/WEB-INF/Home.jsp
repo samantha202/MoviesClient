@@ -174,7 +174,7 @@
                                                      <a href="delete?id=${p.getId()}">Delete</a>
                                                 </td>
                                                  <td>
-                                                     <a href="update?id=${p.getId()}">Update</a>
+                                                     <a href="updateView?id=${p.getId()}">Update</a>
                                                 </td>
                                             </tr>
                                             </c:forEach>
