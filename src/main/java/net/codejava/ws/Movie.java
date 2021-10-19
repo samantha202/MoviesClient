@@ -1,5 +1,4 @@
 package net.codejava.ws;
-
 import java.text.SimpleDateFormat;
 import java.time.LocalTime;
 import java.util.ArrayList;
@@ -21,6 +20,7 @@ public class Movie {
 	private int minAge;
 	private List<Actors> actors;
 	private String v;
+	public static ArrayList<Movie> ExportList;
 	
 	
 	public Movie(String title, int id, String languages, JourWeek duration, String king,Adresse adr,int minA, String description,Programes programs, String author, List<Actors> actors,String v) {

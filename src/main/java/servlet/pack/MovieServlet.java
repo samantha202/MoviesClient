@@ -47,6 +47,7 @@ public class MovieServlet extends HttpServlet {
         TypeReference<ArrayList<Movie>> mapType = new TypeReference<ArrayList<Movie>>() {};
         ArrayList<Movie> jsonToList = objectMapper.readValue(responses, mapType);
     	request.setAttribute("movies", jsonToList);
+    	Movie.ExportList = jsonToList; 
     	request.getRequestDispatcher(HOME_PAGE).forward(request, response);
 	}
 

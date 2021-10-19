@@ -131,6 +131,7 @@
                                  <form class="form-horizontal m-t-20" id="loginform" method="get" action="movies">
                                 <div class="dt-buttons">
                                  <button class="dt-button buttons-csv buttons-html5 btn btn-info mr-1" tabindex="0" aria-controls="file_export" type="submit"><span>search</span></button> 
+                                 <a  class="dt-button buttons-csv buttons-html5 btn btn-info mr-1" tabindex="0" aria-controls="file_export" href="export">Excel</a>
                                  </div>
                                 <div id="file_export_filter" class="dataTables_filter"><label>Search:<input type="search" name="search" class="form-control form-control-sm" placeholder="" aria-controls="file_export"></label></div>
                                  <div class="form-group text-center">
