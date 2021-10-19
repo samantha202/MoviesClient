@@ -14,6 +14,10 @@
 		<servlet-class>servlet.pack.UserServlet</servlet-class>
 	</servlet>
 	<servlet>
+		<servlet-name>MovieServlet</servlet-name>
+		<servlet-class>servlet.pack.MovieServlet</servlet-class>
+	</servlet>
+	<servlet>
 		<servlet-name>AddServlet</servlet-name>
 		<servlet-class>servlet.pack.AddServlet</servlet-class>
 	</servlet>
@@ -24,5 +28,9 @@
 	<servlet-mapping>
 		<servlet-name>AddServlet</servlet-name>
 		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MovieServlet</servlet-name>
+		<url-pattern>/movies</url-pattern>
 	</servlet-mapping>
 </web-app>
