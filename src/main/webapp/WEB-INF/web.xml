@@ -25,6 +25,10 @@
 		<servlet-name>MoreServlet</servlet-name>
 		<servlet-class>servlet.pack.MoreServlet</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>DeleteServlet</servlet-name>
+		<servlet-class>servlet.pack.DeleteServlet</servlet-class>
+	</servlet>
 	<servlet-mapping>
 		<servlet-name>UserServlet</servlet-name>
 		<url-pattern>/login</url-pattern>
@@ -40,5 +44,9 @@
 	<servlet-mapping>
 		<servlet-name>MoreServlet</servlet-name>
 		<url-pattern>/more</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteServlet</servlet-name>
+		<url-pattern>/delete</url-pattern>
 	</servlet-mapping>
 </web-app>
